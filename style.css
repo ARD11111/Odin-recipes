@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+.heading{
+  text-align: center;
+  
+  background-color: rgb(239, 228, 210);
+  color: rgb(19, 29, 79);
+  padding: 10px;
+}
+.list li{
+  list-style-type: none;
+  text-align: center;
+  display: inline-block;
+  height: 100px;
+  width: 300px;
+  background-color: rgb(19, 29, 79);
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  
+}
+.list li a:link,
+a:link{
+  color: rgb(239, 228, 210);
+  text-decoration: none;
+}
+
+.list li a:visited,
+a:visited{
+  color: rgb(239, 228, 210);
+  text-decoration: none;
+}
+
+.home-div{
+text-align: center;
+}
+.home{
+  display: block;
+  background-color: rgb(37, 77, 112);
+  padding: 10px;
+  color: rgb(239, 228, 210);
+}
+
+.recipe-title
+{
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.pohe,
+.dbc,
+.idli{
+  align-items: center;
+  text-align: center;
+  background-color: rgb(239, 228, 210);
+  
+}
+.description{
+  padding: 20px;
+}
+.ingredients{
+  width: 600px;
+  margin: 10px auto;
+  text-align: left;
+  background-color: rgb(19, 29, 79);
+  color: rgb(239, 228, 210);
+  padding: 10px;
+  border-radius: 10px;
+  display: inline-block
+  
+}
+.steps{
+  width: 600px;
+  margin: 10px auto;
+  text-align: left;
+  background-color: rgb(19, 29, 79);
+  color: rgb(239, 228, 210);
+  padding: 10px;
+  border-radius: 10px;
+  display: inline-block;
+}
+.recipe-img{
+  width: 800px;
+}
+.pohe-img{
+  width: 500px;
+}
